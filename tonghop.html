@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tổng Hợp</title>
+</head>
+<body>
+    <h2>html</h2>
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+      function showMessage(){
+    document.getElementById('messageDiv').innerHTML = "Xin chào!"
+}
+    </script>
+    <br>
+    <h2>alert</h2>
+    <button type="button" onclick="showMessageAlert();">Click Me!</button>
+    <script>
+		function showMessageAlert(){
+    alert('Xin chào!');
+}
+    </script>
+    <h2>console</h2>
+    <button type="button" onclick="showMessageconsole();">Click Me!</button>
+    <script>
+      function showMessageconsole(){
+    console.log('Xin chào! ')
+}
+    </script>
+    <h2>document.write</h2>
+    <button type="button" onclick="showMessagedocument();">Click Me!</button>
+    <script>
+      function showMessagedocument(){
+    document.write('xin chào !')
+}
+    </script>
+
+
+</body>
+</html>
